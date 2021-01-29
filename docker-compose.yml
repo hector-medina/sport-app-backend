@@ -1,10 +1,10 @@
 version: '3.9'
 
 services:
-  symfony:
+  web:
     build:
       context: .
-      dockerfile: docker/Dockerfile
+      dockerfile: Dockerfile
     image: basic
     ports: 
     - 80:80
